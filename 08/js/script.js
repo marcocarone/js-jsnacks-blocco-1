@@ -5,7 +5,7 @@
 
 var numUtente = parseInt(prompt("inserisci il numero"));
 
-for (i = 1; i <= numUtente; i++) {
+for ( var i = 1; i <= numUtente; i++) {
   console.log(i);
   var x = Math.pow(i, 3);
   console.log(x);

@@ -3,7 +3,7 @@
 // inseriti. Esegui questo programma in due versioni, con il for
 
 var somma = 0;
-for (i = 0; i < 5; i++) {
+for (var i = 0; i < 5; i++) {
   var num = parseInt(prompt("Inserisci il numero"));
   somma += num;
 }
